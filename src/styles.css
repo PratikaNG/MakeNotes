@@ -1,0 +1,33 @@
+.App {
+  font-family: sans-serif;
+}
+
+.app-header {
+  margin-top: 0;
+  height: 50px;
+  background-color: yellow;
+  padding: 1rem 2rem;
+  font-family: Gill Sans, cursive;
+}
+
+.note-card {
+  width: 200px;
+  padding: 1rem;
+  border: 1px solid gray;
+  border-radius: 1rem;
+}
+.note-title {
+  font-size: 18px;
+}
+
+.note-text {
+  font-size: 16px;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+  width: 100%;
+  padding: 1rem 2rem;
+}
