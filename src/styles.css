@@ -1,5 +1,6 @@
 .App {
   font-family: sans-serif;
+  ;
 }
 
 .app-header {
@@ -10,18 +11,33 @@
   font-family: Gill Sans, cursive;
 }
 
+.notes{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+
+}
+
 .note-card {
   width: 200px;
   padding: 1rem;
+  background-color: #036b3e;
   border: 1px solid gray;
   border-radius: 1rem;
+  margin: 1rem;
+  
 }
 .note-title {
+  color:#FFB000;
   font-size: 18px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .note-text {
   font-size: 16px;
+  color:#FFCF9D
+
 }
 
 .footer {
